@@ -8,6 +8,7 @@ body {
 }
 
 .vl {
+    /*Горизантальная линия*/
     position: absolute;
     border-left: 4px solid black;
     height: 890px;
@@ -17,12 +18,22 @@ body {
 #result {
     position: relative;
     bottom: -1200px;
+    /*РЕЗУЛЬТАТ*/
 }
 
 .input {
-    display: flex;
-    width: 100px;
+    /*ИТОГО*/
+    position: absolute;
+    width: 200px;
     height: 100px;
+    left: 500px;
     background-color: #fff;
-    justify-content: flex-end;
+}
+
+.knopka {
+    /*КНОПКА ВЫЧЕТА*/
+    width: 250px;
+    height: 100px;
+    position: absolute;
+    left: 1000px;
 }
