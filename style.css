@@ -1,6 +1,14 @@
 body {
-    background: LightSlateGray;
+    background: #010409;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*#161b22*/
 
 .btn {
     position: relative;
@@ -10,30 +18,24 @@ body {
 .vl {
     /*Горизантальная линия*/
     position: absolute;
-    border-left: 4px solid black;
-    height: 890px;
+    border-left: 4px solid #30363d;
+    height: 488px;
     left: 220px;
 }
 
 #result {
-    position: relative;
-    bottom: -1200px;
-    /*РЕЗУЛЬТАТ*/
-}
-
-.input {
-    /*ИТОГО*/
-    position: absolute;
-    width: 200px;
+    background-color: silver;
+    bottom: 100px;
     height: 100px;
-    left: 500px;
-    background-color: #fff;
+    border: 1px solid #fff;
+    /*РЕЗУЛЬТАТ*/
 }
 
 .knopka {
     /*КНОПКА ВЫЧЕТА*/
-    width: 250px;
-    height: 100px;
-    position: absolute;
-    left: 1000px;
+}
+
+.main {
+    display: flex;
+    justify-content: flex-end;
 }
